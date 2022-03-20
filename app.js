@@ -12,7 +12,7 @@ const graphqlResolver = require('./graphql/resolvers');
 const auth = require('./middleware/auth');
 const { clearImage } = require('./util/file');
 
-const MONGODB_URI = 'mongodb+srv://demoShop:demoShop123@cluster0.4i8kb.mongodb.net/demoBlog?retryWrites=true&w=majority'
+const MONGODB_URI = `mongodb+srv://demoShop:demoShop123@cluster0.4i8kb.mongodb.net/demoBlog?retryWrites=true&w=majority`;
 
 const app = express();
 
